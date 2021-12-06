@@ -1,0 +1,11 @@
+<div class="container">
+  <h4 class="text-dark">Interpolation be like</h4>
+  <h6 class="text-muted">DATA-BINDING INTERPOLATION {{ nombre + ' ' + getApellidos()}}</h6>
+  <hr/>
+  <h4 class="text-dark">Data Binding be like</h4>
+  <img [src]="urlImagen" class="img-fluid">
+  <hr/>
+  <h4 class="text-dark">Event binding & Components Communication be like</h4>
+  <app-card [textCard]="changing_message"></app-card>
+  <button (click)="eventHandler()" class="btn btn-block btn-outline-primary">¡Click here!</button>
+</div>
